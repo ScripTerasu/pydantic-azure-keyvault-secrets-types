@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "pydantic-azure-keyvault-secrets-types"
+version = "0.1.0"
+description = "Pydantic Azure Key Vault types"
+authors = ["Sebastian Almendra <script.seba@gmail.com>"]
+repository = "https://github.com/ScripTerasu/pydantic-azure-keyvault-secrets-types"
+readme = ["README.md"]
+packages = [{ include = "pydantic_azure_keyvault_secrets_types" }]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pydantic = "^2.1.1"
+azure-identity = "^1.13.0"
+azure-keyvault-secrets = "^4.7.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.test]  # This part can be left out
+
+[tool.poetry.group.test.dependencies]
+pytest = "^6.0.0"
+pytest-mock = "*"
