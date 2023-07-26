@@ -1,10 +1,11 @@
 [tool.poetry]
 name = "pydantic-azure-keyvault-secrets-types"
-version = "0.1.0"
+version = "0.1.1"
 description = "Pydantic Azure Key Vault types"
+license = "GPL-3.0-only"
 authors = ["Sebastian Almendra <script.seba@gmail.com>"]
 repository = "https://github.com/ScripTerasu/pydantic-azure-keyvault-secrets-types"
-readme = ["README.md"]
+readme = ["README.md","LICENSE"]
 packages = [{ include = "pydantic_azure_keyvault_secrets_types" }]
 
 [tool.poetry.dependencies]
